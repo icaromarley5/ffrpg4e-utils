@@ -33,18 +33,18 @@ MONSTER_IMPORTANCE_STAT_DICT = {
     "elite": {
         "init": 4,
         "attack_difficulty": 30,
-        "level": 2,
-        "hp_multiplier": 2,
+        "level": 0,
+        "hp_multiplier": 3,
         "mp_multiplier": 2,
         "dmg_multiplier_multiplier": 1,
     },
     "boss": {
         "init": 5,
         "attack_difficulty": 20,
-        "level": 4,
-        "hp_multiplier": 3,
+        "level": 0,
+        "hp_multiplier": 6,
         "mp_multiplier": 3,
-        "dmg_multiplier_multiplier": 1,
+        "dmg_multiplier_multiplier": 1.2,
     },
 }
 MONSTER_TYPE_STAT_DICT = {
@@ -110,7 +110,7 @@ LEVEL_ATTRIBUTES = {
         "dmg_multiplier": [10, 14],
     },
     54: {
-        "hp": [892, 10000],
+        "hp": [892, 1000],
         "mp": [100, 704],
         "arm": [62, 184],
         "marm": [62, 184],
